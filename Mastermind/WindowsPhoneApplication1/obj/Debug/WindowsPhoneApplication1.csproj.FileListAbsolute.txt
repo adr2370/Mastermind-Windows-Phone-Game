@@ -1,0 +1,39 @@
+c:\users\alexander ramirez\documents\visual studio 2010\Projects\WindowsPhoneApplication1\WindowsPhoneApplication1\Bin\Debug\ApplicationIcon.png
+c:\users\alexander ramirez\documents\visual studio 2010\Projects\WindowsPhoneApplication1\WindowsPhoneApplication1\Bin\Debug\Background.png
+c:\users\alexander ramirez\documents\visual studio 2010\Projects\WindowsPhoneApplication1\WindowsPhoneApplication1\Bin\Debug\WindowsPhoneApplication1.dll
+c:\users\alexander ramirez\documents\visual studio 2010\Projects\WindowsPhoneApplication1\WindowsPhoneApplication1\Bin\Debug\WindowsPhoneApplication1.pdb
+c:\users\alexander ramirez\documents\visual studio 2010\Projects\WindowsPhoneApplication1\WindowsPhoneApplication1\Bin\Debug\AppManifest.xaml
+c:\users\alexander ramirez\documents\visual studio 2010\Projects\WindowsPhoneApplication1\WindowsPhoneApplication1\Bin\Debug\WindowsPhoneApplication1.xap
+c:\users\alexander ramirez\documents\visual studio 2010\Projects\WindowsPhoneApplication1\WindowsPhoneApplication1\obj\Debug\ResolveAssemblyReference.cache
+c:\users\alexander ramirez\documents\visual studio 2010\Projects\WindowsPhoneApplication1\WindowsPhoneApplication1\obj\Debug\App.g.i.cs
+c:\users\alexander ramirez\documents\visual studio 2010\Projects\WindowsPhoneApplication1\WindowsPhoneApplication1\obj\Debug\MainPage.g.i.cs
+c:\users\alexander ramirez\documents\visual studio 2010\Projects\WindowsPhoneApplication1\WindowsPhoneApplication1\obj\Debug\WindowsPhoneApplication1.g.resources
+c:\users\alexander ramirez\documents\visual studio 2010\Projects\WindowsPhoneApplication1\WindowsPhoneApplication1\obj\Debug\WindowsPhoneApplication1.dll
+c:\users\alexander ramirez\documents\visual studio 2010\Projects\WindowsPhoneApplication1\WindowsPhoneApplication1\obj\Debug\WindowsPhoneApplication1.pdb
+c:\users\alexander ramirez\documents\visual studio 2010\Projects\WindowsPhoneApplication1\WindowsPhoneApplication1\obj\Debug\XapCacheFile.xml
+C:\Users\Alexander Ramirez\Desktop\Mastermind\WindowsPhoneApplication1\Bin\Debug\ApplicationIcon.png
+C:\Users\Alexander Ramirez\Desktop\Mastermind\WindowsPhoneApplication1\Bin\Debug\Background.png
+C:\Users\Alexander Ramirez\Desktop\Mastermind\WindowsPhoneApplication1\Bin\Debug\WindowsPhoneApplication1.dll
+C:\Users\Alexander Ramirez\Desktop\Mastermind\WindowsPhoneApplication1\Bin\Debug\WindowsPhoneApplication1.pdb
+C:\Users\Alexander Ramirez\Desktop\Mastermind\WindowsPhoneApplication1\Bin\Debug\AppManifest.xaml
+C:\Users\Alexander Ramirez\Desktop\Mastermind\WindowsPhoneApplication1\Bin\Debug\WindowsPhoneApplication1.xap
+C:\Users\Alexander Ramirez\Desktop\Mastermind\WindowsPhoneApplication1\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Alexander Ramirez\Desktop\Mastermind\WindowsPhoneApplication1\obj\Debug\App.g.i.cs
+C:\Users\Alexander Ramirez\Desktop\Mastermind\WindowsPhoneApplication1\obj\Debug\MainPage.g.i.cs
+C:\Users\Alexander Ramirez\Desktop\Mastermind\WindowsPhoneApplication1\obj\Debug\WindowsPhoneApplication1.g.resources
+C:\Users\Alexander Ramirez\Desktop\Mastermind\WindowsPhoneApplication1\obj\Debug\WindowsPhoneApplication1.dll
+C:\Users\Alexander Ramirez\Desktop\Mastermind\WindowsPhoneApplication1\obj\Debug\WindowsPhoneApplication1.pdb
+C:\Users\Alexander Ramirez\Desktop\Mastermind\WindowsPhoneApplication1\obj\Debug\XapCacheFile.xml
+C:\Users\Alexander Ramirez\Dropbox\adr2370\Windows Phone\Mastermind\WindowsPhoneApplication1\Bin\Debug\ApplicationIcon.png
+C:\Users\Alexander Ramirez\Dropbox\adr2370\Windows Phone\Mastermind\WindowsPhoneApplication1\Bin\Debug\Background.png
+C:\Users\Alexander Ramirez\Dropbox\adr2370\Windows Phone\Mastermind\WindowsPhoneApplication1\Bin\Debug\WindowsPhoneApplication1.dll
+C:\Users\Alexander Ramirez\Dropbox\adr2370\Windows Phone\Mastermind\WindowsPhoneApplication1\Bin\Debug\WindowsPhoneApplication1.pdb
+C:\Users\Alexander Ramirez\Dropbox\adr2370\Windows Phone\Mastermind\WindowsPhoneApplication1\Bin\Debug\AppManifest.xaml
+C:\Users\Alexander Ramirez\Dropbox\adr2370\Windows Phone\Mastermind\WindowsPhoneApplication1\Bin\Debug\WindowsPhoneApplication1.xap
+C:\Users\Alexander Ramirez\Dropbox\adr2370\Windows Phone\Mastermind\WindowsPhoneApplication1\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Alexander Ramirez\Dropbox\adr2370\Windows Phone\Mastermind\WindowsPhoneApplication1\obj\Debug\App.g.i.cs
+C:\Users\Alexander Ramirez\Dropbox\adr2370\Windows Phone\Mastermind\WindowsPhoneApplication1\obj\Debug\MainPage.g.i.cs
+C:\Users\Alexander Ramirez\Dropbox\adr2370\Windows Phone\Mastermind\WindowsPhoneApplication1\obj\Debug\WindowsPhoneApplication1.g.resources
+C:\Users\Alexander Ramirez\Dropbox\adr2370\Windows Phone\Mastermind\WindowsPhoneApplication1\obj\Debug\WindowsPhoneApplication1.dll
+C:\Users\Alexander Ramirez\Dropbox\adr2370\Windows Phone\Mastermind\WindowsPhoneApplication1\obj\Debug\WindowsPhoneApplication1.pdb
+C:\Users\Alexander Ramirez\Dropbox\adr2370\Windows Phone\Mastermind\WindowsPhoneApplication1\obj\Debug\XapCacheFile.xml

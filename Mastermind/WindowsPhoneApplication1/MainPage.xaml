@@ -1,0 +1,140 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="WindowsPhoneApplication1.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="768"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    shell:SystemTray.IsVisible="True" xmlns:my="clr-namespace:System;assembly=mscorlib">
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Canvas x:Name="Game" Margin="-5,0,0,0" Grid.Row="1">
+            <Rectangle Fill="White" Height="60" Canvas.Left="20" RadiusY="30" RadiusX="30" Stroke="White" Canvas.Top="20" Width="60" Name="Guess11" />
+            <Rectangle Fill="White" Height="60" Canvas.Left="20" RadiusY="30" RadiusX="30" Stroke="White" Canvas.Top="85" Width="60" Name="Guess21" />
+            <Rectangle Fill="White" Height="60" Canvas.Left="20" RadiusY="30" RadiusX="30" Stroke="White" Canvas.Top="150" Width="60" Name="Guess31" />
+            <Rectangle Fill="White" Height="60" Canvas.Left="20" RadiusY="30" RadiusX="30" Stroke="White" Canvas.Top="215" Width="60" Name="Guess41" />
+            <Rectangle Fill="White" Height="60" Canvas.Left="20" RadiusY="30" RadiusX="30" Stroke="White" Canvas.Top="280" Width="60" Name="Guess51" />
+            <Rectangle Fill="White" Height="60" Canvas.Left="20" RadiusY="30" RadiusX="30" Stroke="White" Canvas.Top="345" Width="60" Name="Guess61" />
+            <Rectangle Fill="White" Height="60" Canvas.Left="20" RadiusY="30" RadiusX="30" Stroke="White" Canvas.Top="410" Width="60" Name="Guess71" />
+            <Rectangle Fill="White" Height="60" Canvas.Left="20" RadiusY="30" RadiusX="30" Stroke="White" Canvas.Top="475" Width="60" Name="Guess81" />
+            <Rectangle Fill="White" Height="60" Canvas.Left="20" RadiusY="30" RadiusX="30" Stroke="White" Canvas.Top="540" Width="60" Name="Guess91" />
+            <Rectangle Fill="White" Height="60" Canvas.Left="20" RadiusY="30" RadiusX="30" Stroke="White" Canvas.Top="605" Width="60" Name="Guess101" />
+            <Rectangle Fill="White" Height="60" Canvas.Left="85" RadiusY="30" RadiusX="30" Stroke="White" Canvas.Top="20" Width="60" Name="Guess12" />
+            <Rectangle Fill="White" Height="60" Canvas.Left="85" RadiusY="30" RadiusX="30" Stroke="White" Canvas.Top="85" Width="60" Name="Guess22" />
+            <Rectangle Fill="White" Height="60" Canvas.Left="85" RadiusY="30" RadiusX="30" Stroke="White" Canvas.Top="150" Width="60" Name="Guess32" />
+            <Rectangle Fill="White" Height="60" Canvas.Left="85" RadiusY="30" RadiusX="30" Stroke="White" Canvas.Top="215" Width="60" Name="Guess42" />
+            <Rectangle Fill="White" Height="60" Canvas.Left="85" RadiusY="30" RadiusX="30" Stroke="White" Canvas.Top="280" Width="60" Name="Guess52" />
+            <Rectangle Fill="White" Height="60" Canvas.Left="85" RadiusY="30" RadiusX="30" Stroke="White" Canvas.Top="345" Width="60" Name="Guess62" />
+            <Rectangle Fill="White" Height="60" Canvas.Left="85" RadiusY="30" RadiusX="30" Stroke="White" Canvas.Top="410" Width="60" Name="Guess72" />
+            <Rectangle Fill="White" Height="60" Canvas.Left="85" RadiusY="30" RadiusX="30" Stroke="White" Canvas.Top="475" Width="60" Name="Guess82" />
+            <Rectangle Fill="White" Height="60" Canvas.Left="85" RadiusY="30" RadiusX="30" Stroke="White" Canvas.Top="540" Width="60" Name="Guess92" />
+            <Rectangle Fill="White" Height="60" Canvas.Left="85" RadiusY="30" RadiusX="30" Stroke="White" Canvas.Top="605" Width="60" Name="Guess102" />
+            <Rectangle Fill="White" Height="60" Canvas.Left="150" RadiusY="30" RadiusX="30" Stroke="White" Canvas.Top="20" Width="60" Name="Guess13" />
+            <Rectangle Fill="White" Height="60" Canvas.Left="150" RadiusY="30" RadiusX="30" Stroke="White" Canvas.Top="85" Width="60" Name="Guess23" />
+            <Rectangle Fill="White" Height="60" Canvas.Left="150" RadiusY="30" RadiusX="30" Stroke="White" Canvas.Top="150" Width="60" Name="Guess33" />
+            <Rectangle Fill="White" Height="60" Canvas.Left="150" RadiusY="30" RadiusX="30" Stroke="White" Canvas.Top="215" Width="60" Name="Guess43" />
+            <Rectangle Fill="White" Height="60" Canvas.Left="150" RadiusY="30" RadiusX="30" Stroke="White" Canvas.Top="280" Width="60" Name="Guess53" />
+            <Rectangle Fill="White" Height="60" Canvas.Left="150" RadiusY="30" RadiusX="30" Stroke="White" Canvas.Top="345" Width="60" Name="Guess63" />
+            <Rectangle Fill="White" Height="60" Canvas.Left="150" RadiusY="30" RadiusX="30" Stroke="White" Canvas.Top="410" Width="60" Name="Guess73" />
+            <Rectangle Fill="White" Height="60" Canvas.Left="150" RadiusY="30" RadiusX="30" Stroke="White" Canvas.Top="475" Width="60" Name="Guess83" />
+            <Rectangle Fill="White" Height="60" Canvas.Left="150" RadiusY="30" RadiusX="30" Stroke="White" Canvas.Top="540" Width="60" Name="Guess93" />
+            <Rectangle Fill="White" Height="60" Canvas.Left="150" RadiusY="30" RadiusX="30" Stroke="White" Canvas.Top="605" Width="60" Name="Guess103" />
+            <Rectangle Fill="White" Height="60" Canvas.Left="215" RadiusY="30" RadiusX="30" Stroke="White" Canvas.Top="20" Width="60" Name="Guess14" />
+            <Rectangle Fill="White" Height="60" Canvas.Left="215" RadiusY="30" RadiusX="30" Stroke="White" Canvas.Top="85" Width="60" Name="Guess24" />
+            <Rectangle Fill="White" Height="60" Canvas.Left="215" RadiusY="30" RadiusX="30" Stroke="White" Canvas.Top="150" Width="60" Name="Guess34" />
+            <Rectangle Fill="White" Height="60" Canvas.Left="215" RadiusY="30" RadiusX="30" Stroke="White" Canvas.Top="215" Width="60" Name="Guess44" />
+            <Rectangle Fill="White" Height="60" Canvas.Left="215" RadiusY="30" RadiusX="30" Stroke="White" Canvas.Top="280" Width="60" Name="Guess54" />
+            <Rectangle Fill="White" Height="60" Canvas.Left="215" RadiusY="30" RadiusX="30" Stroke="White" Canvas.Top="345" Width="60" Name="Guess64" />
+            <Rectangle Fill="White" Height="60" Canvas.Left="215" RadiusY="30" RadiusX="30" Stroke="White" Canvas.Top="410" Width="60" Name="Guess74" />
+            <Rectangle Fill="White" Height="60" Canvas.Left="215" RadiusY="30" RadiusX="30" Stroke="White" Canvas.Top="475" Width="60" Name="Guess84" />
+            <Rectangle Fill="White" Height="60" Canvas.Left="215" RadiusY="30" RadiusX="30" Stroke="White" Canvas.Top="540" Width="60" Name="Guess94" />
+            <Rectangle Fill="White" Height="60" Canvas.Left="215" RadiusY="30" RadiusX="30" Stroke="White" Canvas.Top="605" Width="60" Name="Guess104" />
+            <Rectangle Fill="White" Height="20" Canvas.Left="290" RadiusY="30" RadiusX="30" Stroke="White" Canvas.Top="41" Width="20" Name="Answer11" />
+            <Rectangle Fill="White" Height="20" Canvas.Left="290" RadiusY="30" RadiusX="30" Stroke="White" Canvas.Top="106" Width="20" Name="Answer21" />
+            <Rectangle Fill="White" Height="20" Canvas.Left="290" RadiusY="30" RadiusX="30" Stroke="White" Canvas.Top="171" Width="20" Name="Answer31" />
+            <Rectangle Fill="White" Height="20" Canvas.Left="290" RadiusY="30" RadiusX="30" Stroke="White" Canvas.Top="236" Width="20" Name="Answer41" />
+            <Rectangle Fill="White" Height="20" Canvas.Left="290" RadiusY="30" RadiusX="30" Stroke="White" Canvas.Top="301" Width="20" Name="Answer51" />
+            <Rectangle Fill="White" Height="20" Canvas.Left="290" RadiusY="30" RadiusX="30" Stroke="White" Canvas.Top="366" Width="20" Name="Answer61" />
+            <Rectangle Fill="White" Height="20" Canvas.Left="290" RadiusY="30" RadiusX="30" Stroke="White" Canvas.Top="431" Width="20" Name="Answer71" />
+            <Rectangle Fill="White" Height="20" Canvas.Left="290" RadiusY="30" RadiusX="30" Stroke="White" Canvas.Top="496" Width="20" Name="Answer81" />
+            <Rectangle Fill="White" Height="20" Canvas.Left="290" RadiusY="30" RadiusX="30" Stroke="White" Canvas.Top="561" Width="20" Name="Answer91" />
+            <Rectangle Fill="White" Height="20" Canvas.Left="290" RadiusY="30" RadiusX="30" Stroke="White" Canvas.Top="626" Width="20" Name="Answer101" />
+            <Rectangle Fill="White" Height="20" Canvas.Left="320" RadiusY="30" RadiusX="30" Stroke="White" Canvas.Top="41" Width="20" Name="Answer12" />
+            <Rectangle Fill="White" Height="20" Canvas.Left="320" RadiusY="30" RadiusX="30" Stroke="White" Canvas.Top="106" Width="20" Name="Answer22" />
+            <Rectangle Fill="White" Height="20" Canvas.Left="320" RadiusY="30" RadiusX="30" Stroke="White" Canvas.Top="171" Width="20" Name="Answer32" />
+            <Rectangle Fill="White" Height="20" Canvas.Left="320" RadiusY="30" RadiusX="30" Stroke="White" Canvas.Top="236" Width="20" Name="Answer42" />
+            <Rectangle Fill="White" Height="20" Canvas.Left="320" RadiusY="30" RadiusX="30" Stroke="White" Canvas.Top="301" Width="20" Name="Answer52" />
+            <Rectangle Fill="White" Height="20" Canvas.Left="320" RadiusY="30" RadiusX="30" Stroke="White" Canvas.Top="366" Width="20" Name="Answer62" />
+            <Rectangle Fill="White" Height="20" Canvas.Left="320" RadiusY="30" RadiusX="30" Stroke="White" Canvas.Top="431" Width="20" Name="Answer72" />
+            <Rectangle Fill="White" Height="20" Canvas.Left="320" RadiusY="30" RadiusX="30" Stroke="White" Canvas.Top="496" Width="20" Name="Answer82" />
+            <Rectangle Fill="White" Height="20" Canvas.Left="320" RadiusY="30" RadiusX="30" Stroke="White" Canvas.Top="561" Width="20" Name="Answer92" />
+            <Rectangle Fill="White" Height="20" Canvas.Left="320" RadiusY="30" RadiusX="30" Stroke="White" Canvas.Top="626" Width="20" Name="Answer102" />
+            <Rectangle Fill="White" Height="20" Canvas.Left="350" RadiusY="30" RadiusX="30" Stroke="White" Canvas.Top="41" Width="20" Name="Answer13" />
+            <Rectangle Fill="White" Height="20" Canvas.Left="350" RadiusY="30" RadiusX="30" Stroke="White" Canvas.Top="106" Width="20" Name="Answer23" />
+            <Rectangle Fill="White" Height="20" Canvas.Left="350" RadiusY="30" RadiusX="30" Stroke="White" Canvas.Top="171" Width="20" Name="Answer33" />
+            <Rectangle Fill="White" Height="20" Canvas.Left="350" RadiusY="30" RadiusX="30" Stroke="White" Canvas.Top="236" Width="20" Name="Answer43" />
+            <Rectangle Fill="White" Height="20" Canvas.Left="350" RadiusY="30" RadiusX="30" Stroke="White" Canvas.Top="301" Width="20" Name="Answer53" />
+            <Rectangle Fill="White" Height="20" Canvas.Left="350" RadiusY="30" RadiusX="30" Stroke="White" Canvas.Top="366" Width="20" Name="Answer63" />
+            <Rectangle Fill="White" Height="20" Canvas.Left="350" RadiusY="30" RadiusX="30" Stroke="White" Canvas.Top="431" Width="20" Name="Answer73" />
+            <Rectangle Fill="White" Height="20" Canvas.Left="350" RadiusY="30" RadiusX="30" Stroke="White" Canvas.Top="496" Width="20" Name="Answer83" />
+            <Rectangle Fill="White" Height="20" Canvas.Left="350" RadiusY="30" RadiusX="30" Stroke="White" Canvas.Top="561" Width="20" Name="Answer93" />
+            <Rectangle Fill="White" Height="20" Canvas.Left="350" RadiusY="30" RadiusX="30" Stroke="White" Canvas.Top="626" Width="20" Name="Answer103" />
+            <Rectangle Fill="White" Height="20" Canvas.Left="380" RadiusY="30" RadiusX="30" Stroke="White" Canvas.Top="41" Width="20" Name="Answer14" />
+            <Rectangle Fill="White" Height="20" Canvas.Left="380" RadiusY="30" RadiusX="30" Stroke="White" Canvas.Top="106" Width="20" Name="Answer24" />
+            <Rectangle Fill="White" Height="20" Canvas.Left="380" RadiusY="30" RadiusX="30" Stroke="White" Canvas.Top="171" Width="20" Name="Answer34" />
+            <Rectangle Fill="White" Height="20" Canvas.Left="380" RadiusY="30" RadiusX="30" Stroke="White" Canvas.Top="236" Width="20" Name="Answer44" />
+            <Rectangle Fill="White" Height="20" Canvas.Left="380" RadiusY="30" RadiusX="30" Stroke="White" Canvas.Top="301" Width="20" Name="Answer54" />
+            <Rectangle Fill="White" Height="20" Canvas.Left="380" RadiusY="30" RadiusX="30" Stroke="White" Canvas.Top="366" Width="20" Name="Answer64" />
+            <Rectangle Fill="White" Height="20" Canvas.Left="380" RadiusY="30" RadiusX="30" Stroke="White" Canvas.Top="431" Width="20" Name="Answer74" />
+            <Rectangle Fill="White" Height="20" Canvas.Left="380" RadiusY="30" RadiusX="30" Stroke="White" Canvas.Top="496" Width="20" Name="Answer84" />
+            <Rectangle Fill="White" Height="20" Canvas.Left="380" RadiusY="30" RadiusX="30" Stroke="White" Canvas.Top="561" Width="20" Name="Answer94" />
+            <Rectangle Fill="White" Height="20" Canvas.Left="380" RadiusY="30" RadiusX="30" Stroke="White" Canvas.Top="626" Width="20" Name="Answer104" />
+            <Rectangle Fill="Yellow" Height="60" Canvas.Left="412" RadiusY="30" RadiusX="30" Stroke="White" Canvas.Top="280" Width="60" Name="YellowChoice" ManipulationDelta="YellowChoice_ManipulationDelta" ManipulationCompleted="YellowChoice_ManipulationCompleted" />
+            <Rectangle Fill="Green" Height="60" Canvas.Left="412" RadiusY="30" RadiusX="30" Stroke="White" Canvas.Top="345" Width="60" Name="GreenChoice" ManipulationDelta="GreenChoice_ManipulationDelta" ManipulationCompleted="GreenChoice_ManipulationCompleted" />
+            <Rectangle Fill="Red" Height="60" Canvas.Left="412" RadiusY="30" RadiusX="30" Stroke="White" Canvas.Top="20" Width="60" Name="RedChoice" ManipulationDelta="RedChoice_ManipulationDelta" ManipulationCompleted="RedChoice_ManipulationCompleted" />
+            <Rectangle Fill="Black" Height="60" Canvas.Left="412" RadiusY="30" RadiusX="30" Stroke="White" Canvas.Top="85" Width="60" Name="BlackChoice" ManipulationDelta="BlackChoice_ManipulationDelta" ManipulationCompleted="BlackChoice_ManipulationCompleted" />
+            <Rectangle Fill="Blue" Height="60" Canvas.Left="412" RadiusY="30" RadiusX="30" Stroke="White" Canvas.Top="150" Width="60" Name="BlueChoice" ManipulationDelta="BlueChoice_ManipulationDelta" ManipulationCompleted="BlueChoice_ManipulationCompleted" />
+            <Rectangle Fill="Purple" Height="60" Canvas.Left="412" RadiusY="30" RadiusX="30" Stroke="White" Canvas.Top="215" Width="60" Name="PurpleChoice" ManipulationDelta="PurpleChoice_ManipulationDelta" ManipulationCompleted="PurpleChoice_ManipulationCompleted" />
+            <Button Canvas.Left="6" Canvas.Top="672" Content="Guess" Height="96" Name="Guess" Width="221" FontSize="36" FontStretch="Normal" VerticalContentAlignment="Center" Click="Guess_Click" />
+            <Button Canvas.Left="251" Canvas.Top="672" Content="Reset" FontSize="36" FontStretch="Normal" Height="96" Name="Reset" VerticalContentAlignment="Center" Width="221" Click="Reset_Click" />
+            <Rectangle Canvas.Left="412" Canvas.Top="475" Fill="Black" Height="20" Name="BlackLittle" RadiusX="30" RadiusY="30" Stroke="White" Width="20" Visibility="Collapsed" />
+            <Rectangle Canvas.Left="452" Canvas.Top="475" Fill="Gray" Height="20" Name="GrayLittle" RadiusX="30" RadiusY="30" Stroke="White" Visibility="Collapsed" Width="20" DataContext="{Binding}" />
+            <Rectangle Canvas.Left="412" Canvas.Top="410" Fill="White" Height="60" Name="WhiteExample" RadiusX="30" RadiusY="30" Stroke="White" Width="60" Visibility="Collapsed" />
+            <Rectangle Canvas.Left="434" Canvas.Top="515" Fill="White" Height="20" Name="WhiteLittle" RadiusX="30" RadiusY="30" Stroke="White" Width="20" Visibility="Collapsed" />
+            <Canvas Canvas.Left="85" Canvas.Top="215" Height="165" Name="WinCanvas" Width="346" Background="Black" Visibility="Collapsed">
+                <TextBlock Canvas.Left="51" Canvas.Top="9" Height="74" Name="WinText" Text="YOU WIN :)" Width="250" HorizontalAlignment="Center" FontSize="48" />
+                <Button Canvas.Left="65" Canvas.Top="79" Content="Play Again" Height="80" Name="PlayAgain" Width="220" Click="PlayAgain_Click" />
+            </Canvas>
+        </Canvas>
+        <Canvas Background="Black" Height="768" Name="canvas1" Visibility="Visible" Width="485" Margin="-5,0,0,0" Grid.Row="1">
+            <Button Canvas.Left="136" Canvas.Top="260" Click="PlayAgain_Click" Content="Begin" Height="80" Name="button1" Width="220" />
+        </Canvas>
+    </Grid>
+
+    <!--Sample code showing usage of ApplicationBar-->
+    <!--<phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True">
+            <shell:ApplicationBarIconButton IconUri="/Images/appbar_button1.png" Text="Button 1"/>
+            <shell:ApplicationBarIconButton IconUri="/Images/appbar_button2.png" Text="Button 2"/>
+            <shell:ApplicationBar.MenuItems>
+                <shell:ApplicationBarMenuItem Text="MenuItem 1"/>
+                <shell:ApplicationBarMenuItem Text="MenuItem 2"/>
+            </shell:ApplicationBar.MenuItems>
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>-->
+
+</phone:PhoneApplicationPage>
